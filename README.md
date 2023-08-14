@@ -24,7 +24,7 @@ To execute the ETL process on your local machine, follow these steps:
 
 3. Make sure you have Python 3.x installed on your machine.
 
-4. Open the script file, e.g., `etl_script.ipynb`, using Jupyter Notebook or your preferred Python IDE.
+4. Open the script file,`Bank Marcet Cap ETL.ipynb`, using Jupyter Notebook or your preferred Python IDE.
 
 5. Run the script cell by cell, following the comments and explanations provided within the script. The script will guide you through the ETL process, including extraction, transformation, and loading.
 
