@@ -6,13 +6,13 @@ Welcome to the ETL (Extract, Transform, Load) project repository! This project f
 
 The main goal of this project is to streamline the ETL process for handling bank and market capitalization data. The ETL process consists of the following phases:
 
-1. **Extraction:** The script extracts bank and market capitalization data from the `bank_market_cap.json` JSON file.
+1. **Extraction:** The script extracts bank and market capitalization data from the `bank_market_cap_1.json` & `bank_market_cap_2.json` JSON files.
 
 2. **Transformation:** The extracted data undergoes transformation, specifically converting market capitalization from USD to GBP using exchange rate data.
 
-3. **Loading:** After transformation, the data is loaded into a CSV file named `transformed_data.csv`.
+3. **Loading:** After transformation, the data is loaded into a CSV file named `"bank_market_cap_gbp.csv"`.
 
-4. **Logging:** The script includes a logging feature that records each phase's activities, aiding in tracking the process.
+4. **Logging:** The script includes a logging feature that records each phase's activities in a log file named `logging_file.txt`, aiding in tracking the process.
 
 ## How to Run the Script
 
